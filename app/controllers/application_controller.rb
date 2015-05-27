@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
-    render text: 'It working!'
+    render text: 'It is working!'
   end
 end
